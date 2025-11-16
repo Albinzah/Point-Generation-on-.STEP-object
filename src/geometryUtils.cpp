@@ -14,7 +14,6 @@
 
 #include <omp.h>
 
-
 using namespace types;
 
 namespace geometryUtils
@@ -361,7 +360,7 @@ types::ZMap geometryUtils::meshZMap(arraydouble3 point, arraydouble3 normal,
 {
     std::array<std::array<double, 4>, 4> tMatrix = transformMatrixToZAxis(normal, point);
 
-    std::vector<double> samples(samplingRate); // Same samples for both axis'
+    std::vector<double> samples(samplingRate);
     double stepSize{size / samplingRate};
 
     for (int i = 0; i < samplingRate; i++)
