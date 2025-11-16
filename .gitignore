@@ -1,0 +1,7 @@
+geomlib
+*.o
+assets
+.vscode
+.pytest_cache
+main
+python

@@ -1,0 +1,22 @@
+# --- OCCT internal type system and string leaks ---
+leak:libTKernel.so
+leak:libTKMath.so
+leak:libTKGeomBase.so
+leak:libTKBRep.so
+leak:libTKTopAlgo.so
+leak:libTKGeomAlgo.so
+leak:libTKService.so
+leak:libTKG3d.so
+leak:libTKG2d.so
+leak:libTKMesh.so
+leak:libTKCAF.so
+leak:libTKXCAF.so
+leak:libTKDESTEP.so
+leak:libTKXSBase.so
+leak:libTKBO.so
+leak:libTKShHealing.so
+leak:libTKCDF.so
+
+leak:libGLX_mesa.so
+leak:libGLX.so
+leak:libTKOpenGl.so
